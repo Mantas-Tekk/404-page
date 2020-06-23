@@ -1,0 +1,35 @@
+body {
+    background-color: darkgray;
+}
+header {
+    width: 800px;
+    margin-top: 50px;
+    margin-left: calc(50% - 400px); 
+    background-color: papayawhip;
+}
+ header > img {
+    display: inline-block;
+}
+nav {
+    display: inline;
+}
+
+main {
+    display: inline-block; 
+    background-color: darkkhaki; 
+    width: 800px;
+    margin-left: calc(50% - 400px);
+}
+
+div{
+    display: inline-block; 
+    float: left; 
+    width: 35%; 
+    background-color: greenyellow;
+}
+main > img{
+    display: inline-block;
+    float: right;
+    width: 60%; 
+    background-color: indigo;
+}
