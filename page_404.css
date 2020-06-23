@@ -1,35 +1,97 @@
 body {
-    background-color: darkgray;
+    /* background-color: lightcyan; */
+    font-size       : 20px;
+    font-family: Arial
 }
+
 header {
-    width: 800px;
-    margin-top: 50px;
-    margin-left: calc(50% - 400px); 
-    background-color: papayawhip;
+    display         : inline-block;
+    width           : 800px;
+    margin-top      : 50px;
+    margin-left     : calc(50% - 400px);
+    /* background-color: papayawhip; */
 }
- header > img {
+
+header>div {
+    display    : inline-block;
+    float      : left;
+    /* margin-left: 5px; */
+    width      : 190px;
+}
+
+header>div>img {
     display: inline-block;
+    float  : left;
+    width  : 40px;
 }
+
+header>div>a {
+    display        : inline-block;
+    float          : left;
+    width          : 120px;
+    text-decoration: none;
+    padding        : 8px;
+    color: #453f5b;
+    font-size: 25px;
+}
+
+
 nav {
-    display: inline;
+    display     : inline-block;
+    width       : 550px;
+    float       : right;
+    text-align  : right;
+    margin-right: 30px;
+    padding-top : 8px;
+}
+
+nav>a {
+    text-decoration: none;
+    margin         : 8px;
+    color          : darkgray;
+}
+
+.button {
+    color           : white;
+    background-color: #5d6bc4;
+    padding         : 8px;
+    border-radius   : 25px;
 }
 
 main {
-    display: inline-block; 
-    background-color: darkkhaki; 
-    width: 800px;
-    margin-left: calc(50% - 400px);
+    display         : inline-block;
+    /* background-color: darkkhaki; */
+    width           : 800px;
+    margin-left     : calc(50% - 400px);
 }
 
-div{
-    display: inline-block; 
-    float: left; 
-    width: 35%; 
-    background-color: greenyellow;
+div {
+    display         : inline-block;
+    float           : left;
+    width           : 35%;
+    /* background-color: greenyellow; */
 }
-main > img{
-    display: inline-block;
-    float: right;
-    width: 60%; 
-    background-color: indigo;
+
+main>img {
+    display         : inline-block;
+    float           : right;
+    width           : 60%;
+    /* background-color: indigo; */
 }
+
+main>div>p {
+    color          : darkgray;
+}
+main>div>a{
+    text-decoration: none;
+    background-color: #5d6bc4;
+    border-radius: 25px;
+    padding: 8px 25px;
+    color: white;
+}
+
+h1{
+    font-size: 50px;
+    color: #453f5b;
+}
+
