@@ -61,6 +61,7 @@ nav>a {
 main {
     display         : inline-block;
     /* background-color: darkkhaki; */
+    margin-top: 20px;
     width           : 800px;
     margin-left     : calc(50% - 400px);
 }
@@ -80,18 +81,22 @@ main>img {
 }
 
 main>div>p {
+    margin-top: 10px;
     color          : darkgray;
+    margin-bottom: 30px;
 }
 main>div>a{
+    margin-top: 20px;
     text-decoration: none;
     background-color: #5d6bc4;
     border-radius: 25px;
-    padding: 8px 25px;
+    padding: 10px 25px 10px 25px;
     color: white;
 }
 
 h1{
-    font-size: 50px;
+    margin-top: 70px;
+    font-size: 45px;
     color: #453f5b;
 }
 
