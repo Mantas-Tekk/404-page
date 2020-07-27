@@ -1,0 +1,10 @@
+.button {
+    color           : white;
+    background-color: #5d6bc4;
+    padding         : 8px;
+    border-radius   : 25px;
+}
+
+.button:hover {
+    background-color: lightpink;
+}
